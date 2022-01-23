@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical"
+android:padding="24dp">
+
+<TextView
+    android:id="@+id/E_Info"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/employee_info"
+    android:textSize="32sp"
+    android:layout_marginTop="60dp"
+    android:textStyle="bold"
+    android:layout_gravity="center"/>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emp_name"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:inputType="text"
+        android:id="@+id/Enter_name"
+        android:clickable="true"
+        android:background="@color/white"/>
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/emp_age"
+            android:textSize="20sp"
+            android:focusable="true"
+            android:inputType="text"
+            android:id="@+id/Enter_Age"
+            android:clickable="true"
+            android:background="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/emp_salary"
+            android:textSize="20sp"
+            android:focusable="true"
+            android:inputType="text"
+            android:id="@+id/Enter_Salary"
+            android:clickable="true"
+            android:background="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emp_designation"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:inputType="text"
+        android:id="@+id/Enter_designation"
+        android:clickable="true"
+        android:background="@color/white" />
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emp_bonus"
+        android:textSize="20sp"
+        android:focusable="true"
+        android:inputType="text"
+        android:id="@+id/Enter_Bonus"
+        android:clickable="true"
+        android:background="@color/white" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<Button
+    android:id="@+id/button_save"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="@string/save"
+    android:layout_gravity="center"
+    android:layout_marginTop="32dp"
+    android:background="@color/teal_700"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingactionbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="120dp"
+        android:background="@color/teal_700"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_baseline_add_24"
+        app:fabSize="normal"
+        tools:ignore="ImageContrastCheck" />
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SQLite_App</string>
+    <string name="save">Save</string>
+    <string name="emp_age">Emp Age</string>
+    <string name="employee_info">Employee Info</string>
+    <string name="emp_name">Emp Name</string>
+    <string name="emp_salary">Emp Salary</string>
+    <string name="emp_designation">Emp Designation</string>
+    <string name="emp_bonus">Emp Bonus</string>
+    <string name="todo">TODO</string>
+    <string name="e_id">E_ID</string>
+    <string name="e_name">E_Name</string>
+    <string name="e_age">E_Age</string>
+    <string name="e_designation">E_Designation</string>
+    <string name="e_bonus">E_Bonus</string>
+    <string name="e_salary">E_Salary</string>
+</resources>
